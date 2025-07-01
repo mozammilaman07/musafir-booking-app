@@ -12,13 +12,13 @@ const Headers = () => {
           </div>
           <div className="col-span-2 ... text-2xl ml-10">
             <NavLink to="/">
-              musafir<span className="text-yellow-400">.com</span>{" "}
+              Plumtrips<span className="text-yellow-400">.com</span>{" "}
             </NavLink>
           </div>
           <div className="ml-15">
             <ul className="flex flex-row... gap-4">
               <li>
-                <NavLink to="/">Flights</NavLink>
+                <NavLink to="/flights">Flights</NavLink>
               </li>
               <li>
                 <NavLink to="/hotels">Hotels</NavLink>

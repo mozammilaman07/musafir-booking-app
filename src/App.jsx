@@ -10,6 +10,7 @@ import Offers from "./pages/Offers";
 import Blogs from "./pages/Blogs";
 import Cruises from "./pages/Cruises";
 import MyTrips from "./pages/MyTrips";
+import Home from "./pages/Home";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/flights",
         element: <Flights />,
       },
       {
