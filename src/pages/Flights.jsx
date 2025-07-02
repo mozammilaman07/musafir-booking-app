@@ -1,5 +1,6 @@
 import React from "react";
 import FlightCard from "../components/Cards/FlightCard";
+import Cards from "../components/Cards/Cards";
 
 const Flights = () => {
   return (
@@ -9,6 +10,7 @@ const Flights = () => {
         <FlightCard />
         <FlightCard />
       </div>
+      <Cards />
     </div>
   );
 };
