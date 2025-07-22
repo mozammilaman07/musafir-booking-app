@@ -1,19 +1,32 @@
 .cards{
-    width: 300px;
-    border-radius: 25px;
+    margin-bottom: 25px;
+    width: 330px;
+    height: 222px;
+    /* border-radius: 25px; */
+    display: flex;
+    justify-content: space-between
+    
+
+
+    
+    
+
 }
 .card-img img{
-   height: 200px;
-   border-radius: 25px;
+   height: 130px;
+   /* border-radius: 25px 25px 0 0; */
+    width: 310px;
+    
 
 }
 .desc{
     
     background-color: #fff;
-    height: 80px;
-    padding: 25px;
+    height: 100px;
+    padding: 15px;
     padding-bottom: 40px;
-    border-radius: 25px;
+    /* border-radius: 0 0 25px 25px; */
+     width: 310px;
 
 
 }
