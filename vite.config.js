@@ -8,5 +8,5 @@ export default defineConfig({
   plugins: [react(),
      tailwindcss(),
   ],
-  base: "/plumtrips-booking-app"
+  // base: "/plumtrips-booking-app"
 })
